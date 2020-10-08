@@ -1,0 +1,26 @@
+{
+  "name": "testcodesequalize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "graphql-sequelize": "^9.4.0",
+    "graphql-tools": "^6.2.4",
+    "nodemon": "^2.0.4",
+    "pg": "^8.4.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
